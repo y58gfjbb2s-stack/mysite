@@ -1,0 +1,35 @@
+"Wild Rescues:Template"
+<header>
+  <img src="logo.png" alt="Wildlife Rescue Foundation Logo" />
+  <h1>Wildlife Rescue Foundation</h1>
+  <p>Protecting animals, restoring habitats, and saving lives.</p>
+</header>
+<nav aria-label="Main Navigation">
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/donate">Donate</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Current Rescue Operations</h2>
+    <article>
+      <h3>Animal Rescue in Marion, MD</h3>
+      <p>Our team is currently assisting injured wildlife in the local area...</p>
+    </article>
+  </section>
+  <section>
+    <h2>How to Help</h2>
+    <p>Donate, volunteer, or adopt.</p>
+  </section>
+</main>
+<footer>
+  <p>© 2025 Wildlife Rescue Foundation. All rights reserved.</p>
+  <nav aria-label="Footer Navigation">
+    <a href="/privacy">Privacy Policy</a> |
+    <a href="/terms">Terms of Service</a>
+  </nav>
+</footer>
