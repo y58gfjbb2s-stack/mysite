@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Rescues: Template</title>
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Wild Rescues</h1>
+    </header>
+
+    <nav>
+        <p>Home ◈ About US ◈ Partnership ◈ Gallery ◈ FAQs ◈ Contact</p>
+    </nav>
+
+    <main>
+        <!-- Add page content here -->
+    </main>
+
+    <footer>
+<p>&copy; Copyright 2026. All Rights Reserved.</p>
+        <p>contact@wildrescues.net</p>
+    </footer>
+
+</body>
+</html>
