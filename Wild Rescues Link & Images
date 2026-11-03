@@ -30,24 +30,24 @@ https://www.istockphoto.com/photo/two-small-racoons-baby-look-forwards-gm6899939
 <img src="tortoise.jpg" alt="tortoise eating vegetation" height="width_value" width="height_value">
 https://www.istockphoto.com/photo/hermanns-tortoise-eating-lettuce-gm1425500206-469949784?phrase=tortoise%20eating%20vegetation
 
-<h3>We help many animals, such as:</h3>
-<ul>
-  <li>Raccoons</li>
-  <li>Squirrels</li>
-  <li>Fox</li>
-  <li>Birds</li>
-  <li>Horses</li>
-  <li>Deer</li>
-  <li>Pigs</li>
-  <li>Reptiles</li>
-</ul>
-<p>Did you find an injured or orphaned animal? Contact us to see if we can help.</p>
+  <h3>We help many animals, such as:</h3>
+  <ul>
+    <li>Raccoons</li>
+    <li>Squirrels</li>
+    <li>Fox</li>
+    <li>Birds</li>
+    <li>Horses</li>
+    <li>Deer</li>
+    <li>Pigs</li>
+    <li>Reptiles</li>
+ </ul>
+ <p>Did you find an injured or orphaned animal? Contact us to see if we can help.</p>
 
-<main>
-  <div id="contact">
+  <main>
+    <div id="contact">
     <h2>You can reach us at:</h2>
     <p>Office: (814) 555-8989</p>
     <p>Email: <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
     <p>Address: <a href="https://google.com" target="_blank">8989 Rescue Drive, Ocala, FL 34471</a></p>
-  </div>
-</main>
+    </div>
+  </main>
