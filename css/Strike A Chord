@@ -1,0 +1,10 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strike a Chord</title>
+  <meta name="description" content="Strike A Chord provides music lessons for any person of any age interested in learning how to play the piano, guitar, or violin">
+  <meta name="keywords" content="music lessons, piano, guitar, violin">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
