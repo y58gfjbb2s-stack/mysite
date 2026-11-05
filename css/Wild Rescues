@@ -1,0 +1,124 @@
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+<Style rules for body and images>
+
+body {
+    background-color: #f6eee4;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+<Style rules for navigation area>
+
+nav {
+    background-color: #2a1f14;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+   display: inline-block;
+   font-size: 1.5em;
+   font-family: Geneva, Arial, sans-serif;
+   font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #f6eee4;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+<Style rules for main content>
+
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+main ul {
+  list-style-type: square;
+}
+
+.link {
+  color: #4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+<Style rules for footer content>
+
+footer {
+   text-align: center;
+   font-size: 0.85em;
+   background-color: #2a1f14;
+   color: #f6eee4;
+   padding: 1% 0%;
+}
+
+footer a {
+  color: #f3e6d8;
+  text-decoration: none;
+}
+
+<head>
+  <title>Wild Rescues: Template</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+  <a href="index.html">
+    <img src="baby-hawk.jpg" alt="rescued baby hawk">
+    <img src="path/to/github-wild-rescues-logo.png" alt="GitHub Wild Rescues Logo">
+    <img src="path/to/image.jpg" alt="GitHub Wild Rescues">
+  </a>
+</header>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<img src="images/baby-raccoons.jpg" alt="hands holding three baby raccoons">
+
+<a href="https://nwrawildlife.org" class="link">National Wildlife Rehabilitators Association</a>
+
+<p class="action">Did you find an injured or orphaned animal? Contact us to see if we can help.</p>
