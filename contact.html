@@ -1,0 +1,92 @@
+<main>
+  <div id="contact">
+    </div>
+    <div id="form">
+    <h2>Complete the form below and one of our staff members will contact you.</h2>
+  </div>
+</main>
+
+  <form class="form-grid">
+</form>
+
+<form action="#" method="post">
+  <fieldset>
+    <legend>Customer Information</legend>
+  </fieldset>
+
+  <fieldset>
+    <legend>Musical Interest</legend>
+  </fieldset>
+</form>
+
+<fieldset>
+  <label for="fName">First Name:</label> 
+  <input type="text" name="fName" id="fName">
+
+  <label for="lName">Last Name:</label> 
+  <input type="text" name="lName" id="lName"> 
+
+  <label for="email">Email:</label> 
+  <input type="email" name="email" id="email"> 
+
+  <label for="phone">Phone:</label> 
+  <input type="tel" name="phone" id="phone">
+</fieldset>
+
+<fieldset>
+  <p>I am interested in:</p>
+
+    <label for="guitarles">
+       <input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">
+       Guitar Lessons
+    </label>
+
+    <label for="pianoles">
+       <input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">
+       Piano Lessons
+    </label>
+
+    <label for="violinles">
+       <input type="checkbox" name="interest" id="violinles" value="Violin Lessons">
+       Violin Lessons
+    </label>
+
+    <label for="rent">
+       <input type="checkbox" name="interest" id="rent" value="Rental Equipment">
+       Rental Equipment
+    </label>
+</fieldset>
+
+<input type="submit" id="submit" class="btn" value="Submit">
+
+fieldset, input {
+    margin-bottom: 2%;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+#submit {
+  margin: 0 auto;
+  display: block;
+  padding: 3%;
+  background-color: #b7b7e1;
+  font-size: 1em;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+}
