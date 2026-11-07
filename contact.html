@@ -1,0 +1,73 @@
+<main>
+  <div id="contact">
+  </div>
+  <div id="form"></div>
+</main>
+<div class="form">
+  <h2>Complete the form below and we will contact you soon.</h2>
+</div>
+
+<h2>Contact Us</h2>
+<form class="form-grid">
+</form>
+
+<form action="#" method="post">
+  <fieldset>
+    <legend>Contact Information</legend>    
+  </fieldset>
+
+  <fieldset>
+    <legend>Additional Information</legend>
+  </fieldset>
+</form>
+
+<label for="fName">First Name:</label>
+<input type="text" name="fName" id="fName">
+
+<label for="lName">Last Name:</label>
+<input type="text" name="lName" id="lName">
+
+<label for="bName">Name of Business:</label>
+<input type="text" name="Name" id="Name"
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+
+<label for="phone">Phone:</label>
+<input type="tel" name="phone" id="phone"
+
+<label for="vol">
+  <label><input type="radio" name="interest" value="volunteer"> Volunteering</label>
+</label>
+
+<label for="sponsor">
+  <input type="radio" name="info" id="sponsor" value="Sponsorship"> Sponsorship Opportunities
+</label>
+
+<label for="wildlife">
+    <input type="radio" id="wildlife" name="rescue-type"> Wildlife
+</label>
+
+<label>
+  <input type="radio" name="source" value="other">Other, please specify below.
+</label>
+
+<What questions do you have for us?>
+  <textarea id="comments" name="comments" rows="4" cols="35" placeholder="Enter your message here..."></textarea>
+</label>
+
+<button type="submit" class="btn" id="submit">Submit</button>
+
+form {
+    width: auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+}
