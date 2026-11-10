@@ -1,0 +1,122 @@
+<header>
+    <div class="tab-desk">
+        <a href="index.html"><!-- Existing anchor content or logo --></a>
+    </div>
+    <div class="mobile">
+        <h1>🐾 Wild Rescues</h1>
+        <h3>Rescue. Rehabilitate. Release.</h3>
+    </div>
+</header>
+
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
+}
+
+.mobile h1,
+.mobile h3 {
+    padding: 2%;
+    text-align: center;
+}
+
+main {
+  padding: 2%;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+main h3 {
+  padding-top: 2%;
+}
+
+main ul {
+  list-style-type: square;
+}
+
+.link {
+  color: #4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.action {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+h1 {
+    font-family: "Emblema One", display, sans-serif;
+}
+
+body, p {
+    font-family: "Lora", serif;
+}
+
+.mobile h1 {
+    font-family: 'Emblema One', cursive;
+}
+
+.mobile h3 {
+    font-family: 'Lora', serif;
+}
+
+main {
+    font-family: 'Lora', serif;
+}
+
+html, body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    border-top: 0.5px solid #f6eee4;
+}
+
+<main>
+   <img src="your-image.jpg" class="round" alt="Description">
+</main>
+
+.round {
+   border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+<div id="contact">
+    <p class="tel-link round"><a href="tel:8145558989">(814) 555-8989</a></p>
+    <p>Email: <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+    <p>Address: 8989 Rescue Drive, Ocala, FL 34471</p>
+</div>
+
+.tel-link {
+    background-color: #2a1f14; 
+    padding: 2%;               
+    width: 80%;                 
+    margin: 0 auto;             
+}
+
+.tel-link a {
+    color: #f6eee4;       
+    text-decoration: none; 
+    font-weight: bold;   
+}
