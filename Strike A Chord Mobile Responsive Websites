@@ -1,0 +1,130 @@
+<h1><span class="tab-desk">&#9836; Strike a Chord &#9836;</span></h1>
+<div id="hero" class="tab-desk">
+
+.tab-desk {
+
+     display: none;
+
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #373684;
+}
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike a Chord</title>
+    
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+header h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+html, body, header, footer, main, nav, ul, ol, li, h1, h2, h3, p, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    border-top: 1px solid #e5e9fc;
+}
+
+.action {
+  font-size: 1.25em;
+  color: #373684;
+  font-weight: bold;
+}
+
+#piano, #guitar, #violin {
+}
+
+#info {
+    /* Your existing styles here */
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* New style rule for #info ul */
+#info ul {
+    margin-left: 10%; /* Adds a left margin of 10% */
+}
+
+#info {
+     background-color: #f9f9f9;
+     padding: 20px;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+<img src="..." alt="..." class="round">
+
+#info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.round {
+  border-radius: 8px;
+}
+
+<p class="tel-link"><a href="tel:8145559228">(814) 555-9228</a></p>
+
+<main>
+  <p>Email us at: <a href="mailto:example@domain.com" class="email-link">example@domain.com</a></p>
+</main>
+
+.tel-link {
+
+   background-color: #373684;
+
+   padding: 2%;
+
+   margin: 0 auto;
+
+   width: 80%;
+
+   text-align: center;
+
+   border-radius: 5px;
+
+}
+
+.tel-link a {
+
+   color: #fff;
+
+   text-decoration: none;
+
+   font-size: 1.5em;
+
+   display: block;
+
+}
+
+  #contact .email-link {
+}
+
+.map {
+  width: 95%;
+  height: 50%;
+}
